@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Myriad Pro;
+}
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.wrap{
+ width: 965px;  
+ display: block;  
+ margin: auto;
+}
+.main_part_bg{
+    background-color: #e8e8e8;
+}
+.letest_img img{
+    width: 80px;
+    height: 80px;
+    outline: 10px solid white;
+    opacity: 0.70;
+    background-image: red;
+    transition: 0.50s;
+}
+.letest_img img:hover{
+    opacity: 1;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.logo h2{
+    font-size: 33px;
+    font-weight: normal;
+    font-family: Myriad Pro;
+}
+.logo a{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+.menu{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.menu ul{
+    min-height: 25px;
+   border-radius: 20px;
+}
+.menu ul li{
+    float: left;
+    border-right: 1px solid white;
+    list-style-type: none;
+    box-shadow: 2px 2px 5px black;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    padding:5px 10px;
+    font-size: 19px;
+    color: #9c9a9a;
+    background-color: #faf4f4;
+    font-weight: normal;
+    font-family: Myriad Pro;
+}
+.slider{
+    background-color: aqua;
+}
+.slider img{
+    width: 100%;
+    height: 500px;
+}
+.about_portfolio p{
+    padding: 70px 0px;
+    font-size: 22px;
+    text-align: center;
+}
+.items_part .first_col{
+    text-align: center;
+    padding: 20px 0px;
+}
+.items_part .first_col img{
+    width: 56px;
+    height: 56px;
+}
+.items_part .first_col h5{
+    font-weight: normal;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.items_part .first_col p{
+    font-size: 14px;
+}
+.items_part .first_col button{
+    background-color: #c6c4c4;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.letest_part{
+    padding: 100px 0px;
+}
+.about_us{
+    padding-right: 20px;
+}
+.about_us p{
+  font-size: 14px;
+}
+.about_us h5{
+    font-size:25px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.about_title{
+    display: flex;
+    align-items: center;
+}
+
+.about_title .fas{
+    font-size: 30px;
+    margin-right: 10px;
+    background-color:#b3591e;
+    color: #360b26;
+}
+.letest_title{
+    margin-bottom: 10px;
+}
+.letest_title h5{
+    font-size:25px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.letest_img{
+    display: flex;
+    justify-content: space-between;
+}
+.up_footer{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+.footer_title{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.footer_title img{
+    width: 47px;
+    height: 42px;
+    margin-right: 10px;
+}
+.footer_title h5{
+    margin-top: 18px;
+    font-weight: normal;
+    font-size: 25px;
+    color: #c9c9c9;
+}
+.footer_left li{
+    list-style-type: none;
+}
+.ok_sym{
+    color: #96c019;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer_left li{
+    margin-top: 10px;
+}
+.footer_left li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #848485;
+}
+.footer_right_bg{
+    background-image: url("..//img/fbg2.png");
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    height: 250px;
+}
+.footer_up_bg{
+    background-color: #2f2d31;
+    border-bottom: 2px solid #4f5149;
+    border-top:2px solid #7a7575;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.fb{
+    background-image: url("../img/fb.png");
+}
+.fb2{
+    background-image: url("../img/tt.png");
+}
+.fb3{
+    background-image: url("../img/tt3.png");
+}
+.fb4{
+    background-image: url("../img/tt4.png");
+}
+.fb5{
+    background-image: url("../img/tt5.png");
+}
+.common_li{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 41px;
+    height: 36px;
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.footer_bg{
+    background-color: black;
+    color: #9c9c9c;
+    font-size: 12px;
+}
+.about_me_text{
+    text-align: center;
+}
+.about_me_text a{
+    color: rgb(255 24 205);
+    transition: 0.50s;
+    text-decoration: none;
+}
+.about_me_text a:hover{
+    font-size: 20px;
+    text-decoration:underline;
+}
+.menuIcon{
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    right: 6px;
+    z-index: 666;
+    display: none;
+}
+.menuIcon div{
+    width: 30px;
+    height: 5px;
+    margin: 5px;
+    background-color: black;
+}
+
+/*
+
+RESPONSIVE CSS CODE HERE
+
+
+*/
+
+
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wrap{
+        width: 100%
+       }	
+	
+   .header {
+        display: block;
+        width: 100%;
+        position: relative;
+        padding: 20px 0px;;
+     }	
+     .logo{
+         display: inline-block;
+     }
+     .menu {
+        float: right;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    .slider {
+        width: 100%;
+        background-color: aqua;
+    }
+    .letest_part {
+        padding: 100px 7px;
+    }
+    .footer {
+        justify-content: space-around;
+    }
+
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.wrap{
+        width: 100%
+       }	
+	
+       .header {
+        display: block;
+        width: 100%;
+        position: relative;
+        padding: 20px 0px;;
+     }
+	.logo{
+        width: 25%;
+        margin-left: 1%;
+    }
+	
+	.menu{
+        width: 100%;   
+        padding: 20px 0px;
+        background-color: rgb(199, 26, 185);
+        position: absolute;
+        top: -500px;
+        transition: .5s;
+        right: 0;
+        z-index: 22;
+    }
+	.menu ul{
+        padding: 0;
+    }
+	.menu ul li{
+        width: 100%;
+        background-color: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    ol, ul {
+      padding-left: 0px;
+    }
+	.menu ul li a {
+        background-color:none;
+        color: none;
+    }
+	.menu ul li {
+        box-shadow:none; 
+    }
+	.menu ul li a {
+        text-decoration: none;
+        padding: 5px 10px;
+        font-size: 19px; 
+        background: transparent;
+        color: white;
+        text-transform: uppercase;
+        border-bottom: 1px solid gray;
+    }
+    .menuIcon{
+        display: block;
+    }
+	.about_portfolio p {
+        padding: 45px 12px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .about_us p {
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+    .about_title {
+        margin-left: 21px;
+        margin-bottom: 10px;
+    }
+    .letest_img {
+        display: flex;
+        justify-content: space-around;
+    }
+    ol, ul {
+        padding-left: 33px;
+    }
+    .footer_title {
+        margin-left: 29px;
+    }
+    .footer_right_bg {
+        padding: 20px;
+        height: 341px;
+        background-position: center;
+        text-align: center;
+    }
+    .footer {
+        justify-content: space-around;
+    }
+    .common_li {
+        width: 19px;
+        height: 17px;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .wrap{
+        width: 100%
+       }	
+	
+       .header {
+        display: block;
+        width: 100%;
+        position: relative;
+        padding: 20px 0px;;
+     }
+	.logo{
+        width: 25%;
+        margin-left: 1%;
+    }
+	
+	.menu{
+        width:100%;
+        padding: 20px 0px;
+        background-color: rgb(199, 26, 185);
+        position: absolute;
+        top: -500px;
+        transition: .5s;
+        right: 0;
+        z-index: 22;
+    }
+	.menu ul li{
+        width: 100%;
+        background-color: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    ol, ul {
+      padding-left: 0px;
+    }
+	.menu ul li a {
+        background-color:none;
+        color: none;
+    }
+	.menu ul li {
+        box-shadow:none; 
+    }
+	.menu ul li a {
+        text-decoration: none;
+        padding: 5px 10px;
+        font-size: 19px;
+        color: none;
+        background-color:none;
+    }
+    .menuIcon{
+        display: block;
+    }
+	.about_portfolio p {
+        padding: 45px 7px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .about_us p {
+        font-size: 14px;
+        padding: 0px 20px;
+    }
+    .about_title {
+        margin-left: 21px;
+        margin-bottom: 10px;
+    }
+    .letest_img {
+        display: flex;
+        justify-content: space-around;
+    }
+    ol, ul {
+        padding-left: 33px;
+    }
+    .footer_title {
+        margin-left: 29px;
+    }
+    .footer_right_bg {
+        padding: 20px;
+        height: 440px;
+        background-position: center;
+        text-align: center;
+    }
+    .footer {
+        justify-content: space-around;
+    }
+    .common_li {
+        width: 29px;
+        height: 29px;
+    }
+}
+
+
